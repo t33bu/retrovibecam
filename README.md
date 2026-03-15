@@ -1,15 +1,10 @@
 # RetroVibeCam
 
-A live camera app that makes your footage look like it was captured on vintage hardware. Every frame is processed in real time — what you see through the viewfinder is exactly what gets saved.
+A live camera Android application that makes your footage look like it was captured on vintage hardware. Every frame is processed in real time — what you see through the viewfinder is exactly what gets saved.
 
-This app was completely vibe coded with [Claude](https://claude.ai). The author had some prior experience with Android development in Java, next to none experience with Kotlin, and zero knowledge of OpenGL or any other graphics technology used in this project.
+This app was completely vibe coded with [Claude](https://claude.ai). The author had some prior experience with Android development in Java more than a decade ago, next to none experience with Kotlin, and zero knowledge of OpenGL or any other graphics technology used in this project.
 
-## Disclaimer
-
-> - **Non-commercial use only.** This source code and app are provided for personal, non-commercial use. Commercial use of any kind is strictly forbidden.
-> - **Use at your own risk.** The source code and app are provided as-is, without warranty of any kind, express or implied.
-> - **No liability.** The author accepts no responsibility or liability for any damages, data loss, or other harm arising from the use or inability to use the source code or the app.
-> - **License.** This project is licensed under [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+See video [here](https://www.youtube.com/watch?v=_gHRJsAtM98).
 
 ---
 
@@ -92,3 +87,9 @@ Bug reports are welcome as [GitHub Issues](../../issues), though no guarantees c
 
 ---
 
+## Disclaimer
+
+> - **Non-commercial use only.** This source code and app are provided for personal, non-commercial use. Commercial use of any kind is strictly forbidden.
+> - **Use at your own risk.** The source code and app are provided as-is, without warranty of any kind, express or implied.
+> - **No liability.** The author accepts no responsibility or liability for any damages, data loss, or other harm arising from the use or inability to use the source code or the app.
+> - **License.** This project is licensed under [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
