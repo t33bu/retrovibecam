@@ -1,0 +1,18 @@
+# Build outputs
+build/
+app/build/
+.gradle/
+
+# Always track the output APK
+!apk/*.apk
+
+# Android Studio
+*.iml
+.idea/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Claude
+.claude/

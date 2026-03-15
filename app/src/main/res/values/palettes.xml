@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Palette registry: controls display order. Each ID must have a matching
+         palette_label_<id> string and palette_colors_<id> string-array below.
+         An empty color array means passthrough (no filter). -->
+    <string-array name="palette_ids">
+        <item>no_filter</item>
+        <item>apple_ii</item>
+        <item>cga</item>
+        <item>cga_16</item>
+        <item>commodore_64</item>
+        <item>game_boy</item>
+        <item>intellivision</item>
+        <item>monochrome</item>
+        <item>msx</item>
+        <item>teletext</item>
+        <item>vic_20</item>
+        <item>zx_spectrum</item>
+    </string-array>
+
+    <!-- ── No Filter ─────────────────────────────────────── -->
+    <string name="palette_label_no_filter">No Filter</string>
+    <string-array name="palette_colors_no_filter">
+        <!-- empty = passthrough, no colour quantisation -->
+    </string-array>
+
+    <!-- ── Monochrome ───────────────────────────────────── -->
+    <string name="palette_label_monochrome">Monochrome</string>
+    <string-array name="palette_colors_monochrome">
+        <item>#000000</item> <!-- black -->
+        <item>#FFFFFF</item> <!-- white -->
+    </string-array>
+
+    <!-- ── CGA ───────────────────────────────────────────── -->
+    <string name="palette_label_cga">CGA 4</string>
+    <string-array name="palette_colors_cga">
+        <item>#000000</item> <!-- black   -->
+        <item>#00AAAA</item> <!-- cyan    -->
+        <item>#AA00AA</item> <!-- magenta -->
+        <item>#AAAAAA</item> <!-- white   -->
+    </string-array>
+
+    <!-- ── CGA 16-color ──────────────────────────────────── -->
+    <string name="palette_label_cga_16">CGA 16</string>
+    <string-array name="palette_colors_cga_16">
+        <item>#000000</item> <!-- black         -->
+        <item>#0000AA</item> <!-- blue          -->
+        <item>#00AA00</item> <!-- green         -->
+        <item>#00AAAA</item> <!-- cyan          -->
+        <item>#AA0000</item> <!-- red           -->
+        <item>#AA00AA</item> <!-- magenta       -->
+        <item>#AA5500</item> <!-- brown         -->
+        <item>#AAAAAA</item> <!-- light grey    -->
+        <item>#555555</item> <!-- dark grey     -->
+        <item>#5555FF</item> <!-- light blue    -->
+        <item>#55FF55</item> <!-- light green   -->
+        <item>#55FFFF</item> <!-- light cyan    -->
+        <item>#FF5555</item> <!-- light red     -->
+        <item>#FF55FF</item> <!-- light magenta -->
+        <item>#FFFF55</item> <!-- yellow        -->
+        <item>#FFFFFF</item> <!-- white         -->
+    </string-array>
+
+    <!-- ── Game Boy ──────────────────────────────────────── -->
+    <string name="palette_label_game_boy">Game Boy</string>
+    <string-array name="palette_colors_game_boy">
+        <item>#0F380F</item>
+        <item>#306230</item>
+        <item>#8BAC0F</item>
+        <item>#9BBC0F</item>
+    </string-array>
+
+    <!-- ── Intellivision ─────────────────────────────────── -->
+    <string name="palette_label_intellivision">Intellivision</string>
+    <string-array name="palette_colors_intellivision">
+        <item>#0C0005</item> <!-- black        -->
+        <item>#002DFF</item> <!-- blue         -->
+        <item>#FF3E00</item> <!-- red          -->
+        <item>#C9D464</item> <!-- tan          -->
+        <item>#00780F</item> <!-- dark green   -->
+        <item>#00A720</item> <!-- green        -->
+        <item>#FAEA27</item> <!-- yellow       -->
+        <item>#FFFCFF</item> <!-- white        -->
+        <item>#A7A8A8</item> <!-- grey         -->
+        <item>#5ACBFF</item> <!-- cyan         -->
+        <item>#FFA600</item> <!-- orange       -->
+        <item>#FF3276</item> <!-- pink         -->
+        <item>#5ACBFF</item> <!-- light blue   -->
+        <item>#6CCD30</item> <!-- yellow-green -->
+        <item>#BD95FF</item> <!-- purple       -->
+        <item>#3C5800</item> <!-- brown        -->
+    </string-array>
+
+    <!-- ── ZX Spectrum ───────────────────────────────────── -->
+    <string name="palette_label_zx_spectrum">ZX Spectrum</string>
+    <string-array name="palette_colors_zx_spectrum">
+        <item>#000000</item> <!-- black          -->
+        <item>#0000D8</item> <!-- blue           -->
+        <item>#D80000</item> <!-- red            -->
+        <item>#D800D8</item> <!-- magenta        -->
+        <item>#00D800</item> <!-- green          -->
+        <item>#00D8D8</item> <!-- cyan           -->
+        <item>#D8D800</item> <!-- yellow         -->
+        <item>#D8D8D8</item> <!-- white          -->
+        <item>#0000FF</item> <!-- bright blue    -->
+        <item>#FF0000</item> <!-- bright red     -->
+        <item>#FF00FF</item> <!-- bright magenta -->
+        <item>#00FF00</item> <!-- bright green   -->
+        <item>#00FFFF</item> <!-- bright cyan    -->
+        <item>#FFFF00</item> <!-- bright yellow  -->
+        <item>#FFFFFF</item> <!-- bright white   -->
+    </string-array>
+
+    <!-- ── Commodore VIC-20 ─────────────────────────────── -->
+    <string name="palette_label_vic_20">VIC-20</string>
+    <string-array name="palette_colors_vic_20">
+        <item>#000000</item> <!-- black        -->
+        <item>#FFFFFF</item> <!-- white        -->
+        <item>#782922</item> <!-- red          -->
+        <item>#87D6DD</item> <!-- cyan         -->
+        <item>#AA5FB6</item> <!-- purple       -->
+        <item>#55A049</item> <!-- green        -->
+        <item>#40318D</item> <!-- blue         -->
+        <item>#BFCE72</item> <!-- yellow       -->
+        <item>#AA7449</item> <!-- orange       -->
+        <item>#EAB489</item> <!-- light orange -->
+        <item>#B86962</item> <!-- light red    -->
+        <item>#C9FFFF</item> <!-- light cyan   -->
+        <item>#EA9FF6</item> <!-- light purple -->
+        <item>#94E089</item> <!-- light green  -->
+        <item>#8071CC</item> <!-- light blue   -->
+        <item>#FFFFB2</item> <!-- light yellow -->
+    </string-array>
+
+    <!-- ── Commodore 64 ──────────────────────────────────── -->
+    <string name="palette_label_commodore_64">C64</string>
+    <string-array name="palette_colors_commodore_64">
+        <item>#000000</item> <!-- black       -->
+        <item>#FFFFFF</item> <!-- white       -->
+        <item>#9F4E44</item> <!-- red         -->
+        <item>#6ABFC6</item> <!-- cyan        -->
+        <item>#A057A3</item> <!-- violet      -->
+        <item>#5CAB5E</item> <!-- green       -->
+        <item>#50459B</item> <!-- blue        -->
+        <item>#C9D487</item> <!-- yellow      -->
+        <item>#A1683C</item> <!-- orange      -->
+        <item>#6D5412</item> <!-- brown       -->
+        <item>#CB7E75</item> <!-- light red   -->
+        <item>#626262</item> <!-- dark grey   -->
+        <item>#898989</item> <!-- grey        -->
+        <item>#9AE29B</item> <!-- light green -->
+        <item>#887ECB</item> <!-- light blue  -->
+        <item>#ADADAD</item> <!-- light grey  -->
+    </string-array>
+
+
+    <!-- ── Apple II ───────────────────────────────────────── -->
+    <string name="palette_label_apple_ii">Apple II</string>
+    <string-array name="palette_colors_apple_ii">
+        <item>#000000</item> <!-- black       -->
+        <item>#6C2940</item> <!-- dark red    -->
+        <item>#403578</item> <!-- dark blue   -->
+        <item>#8E46B0</item> <!-- purple      -->
+        <item>#0B5740</item> <!-- dark green  -->
+        <item>#696969</item> <!-- grey 1      -->
+        <item>#1F51C5</item> <!-- medium blue -->
+        <item>#6E7ECC</item> <!-- light blue  -->
+        <item>#404F06</item> <!-- brown       -->
+        <item>#AC6B25</item> <!-- orange      -->
+        <item>#969696</item> <!-- grey 2      -->
+        <item>#D4B9A5</item> <!-- pink        -->
+        <item>#4F9D27</item> <!-- green       -->
+        <item>#C3C04D</item> <!-- yellow      -->
+        <item>#84CF96</item> <!-- aqua        -->
+        <item>#FFFFFF</item> <!-- white       -->
+    </string-array>
+
+    <!-- ── Teletext ───────────────────────────────────────── -->
+    <string name="palette_label_teletext">Teletext</string>
+    <string-array name="palette_colors_teletext">
+        <item>#000000</item> <!-- black   -->
+        <item>#FF0000</item> <!-- red     -->
+        <item>#00FF00</item> <!-- green   -->
+        <item>#FFFF00</item> <!-- yellow  -->
+        <item>#0000FF</item> <!-- blue    -->
+        <item>#FF00FF</item> <!-- magenta -->
+        <item>#00FFFF</item> <!-- cyan    -->
+        <item>#FFFFFF</item> <!-- white   -->
+    </string-array>
+
+    <!-- ── MSX (TMS9918A) ─────────────────────────────────── -->
+    <string name="palette_label_msx">MSX</string>
+    <string-array name="palette_colors_msx">
+        <item>#000000</item> <!-- black        -->
+        <item>#3EB849</item> <!-- medium green -->
+        <item>#74D07D</item> <!-- light green  -->
+        <item>#5955E0</item> <!-- dark blue    -->
+        <item>#8076F1</item> <!-- light blue   -->
+        <item>#B95E51</item> <!-- dark red     -->
+        <item>#65DBEF</item> <!-- cyan         -->
+        <item>#DB6559</item> <!-- medium red   -->
+        <item>#FF897D</item> <!-- light red    -->
+        <item>#CCC35E</item> <!-- dark yellow  -->
+        <item>#DED087</item> <!-- light yellow -->
+        <item>#3AA241</item> <!-- dark green   -->
+        <item>#B766B5</item> <!-- magenta      -->
+        <item>#CCCCCC</item> <!-- grey         -->
+        <item>#FFFFFF</item> <!-- white        -->
+    </string-array>
+
+</resources>
